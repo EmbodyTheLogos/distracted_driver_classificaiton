@@ -8,7 +8,7 @@ training_data = pickle.load(open("training_data.pickle", "rb"))
 categories_counts = []
 def get_category_count():
   count = 0
-  current_class_num = training_data[0][a1]
+  current_class_num = training_data[0][1]
   for i in range(len(training_data)):
     if training_data[i][1] == current_class_num:
       count+=1
