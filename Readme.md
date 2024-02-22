@@ -30,13 +30,17 @@ IMPORTANT NOTES:
 RUN MODEL ON RASPBERRY PI 4
 
 1. Update the system:
+   
    sudo apt-get update
+   
    sudo apt-get upgrade
    
 3. Update pip3
+   
    pip3 install --upgrade pip
    
 5. Install tensorflow lite
+   
    pip3 install tflite_runtime==2.9.1
    
 
